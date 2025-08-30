@@ -22,7 +22,7 @@ int leerNumero();
  */
 void setup() {
   pinMode(led, OUTPUT);
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   // Para UNO clásico: comentar la siguiente línea
   // while (!Serial) { ; }
